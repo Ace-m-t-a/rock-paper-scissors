@@ -17,6 +17,7 @@ const computer = computerPlay();
 
 //if statement and OR operator to compare the two values and to determine a winner
 // use a counter to keep track of score and to announce a winner
+// counter will be implemented once loop has been included
 let userScore = 0
 let computerScore = 0
 let draw = 0
@@ -35,5 +36,6 @@ function playRound(playerSelection, computerPlay){
  }
 }
 // use loop to make game play 5 times (not covered yet so will revisit later)
+
 console.log(playRound(person, computer));
 
